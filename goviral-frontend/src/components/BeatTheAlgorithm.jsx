@@ -423,8 +423,8 @@ export default function BeatTheAlgorithm({
       >
         {/* PLAYER */}
         <Box
-            // ref={gameContainerRef}
-            // tabIndex={0}
+            ref={gameContainerRef}
+            tabIndex={0}
           sx={{
             position: "absolute",
             left: player.x,

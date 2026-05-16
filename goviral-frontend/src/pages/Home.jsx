@@ -21,7 +21,7 @@ import HistoryTable from "../components/HistoryTable";
 export default function Home() {
   const [selectedFile, setSelectedFile] = React.useState(null);
   const [previewUrl, setPreviewUrl] = React.useState("");
-  const [caption, setCaption] = React.useState("Watch till the end.");
+  const [caption, setCaption] = React.useState("");
   const [uploadProgress, setUploadProgress] = React.useState(0);
   const [stage, setStage] = React.useState("idle"); // idle | uploading | analyzing
   const [analysis, setAnalysis] = React.useState(null);
