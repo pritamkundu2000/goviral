@@ -24,7 +24,8 @@ app.use(limiter);
 // app.use(cors());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin: "https://goviral-frontend.vercel.app",
     credentials: true,
   })
 );
